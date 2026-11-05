@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Квадрат — ремонт квартир под ключ в Москве</title>
+  <meta name="description" content="Ремонт квартир под ключ в Москве: фиксированная смета, ежедневные фотоотчёты, гарантия 3 года. Рассчитайте стоимость онлайн.">
+  <meta name="theme-color" content="#faf6f0">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="Квадрат — на главную">
+        <svg class="logo__mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="currentColor"/><rect x="16" y="16" width="32" height="32" rx="4" fill="none" stroke="#fff" stroke-width="6"/><rect x="28" y="28" width="8" height="8" fill="#f2d7b6"/></svg>
+        <span class="logo__text">Квадрат<small>ремонт под ключ</small></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#calc">Калькулятор</a></li>
+          <li><a href="#process">Этапы</a></li>
+          <li><a href="#works">Работы</a></li>
+          <li><a href="#prices">Цены</a></li>
+          <li><a href="#faq">Вопросы</a></li>
+        </ul>
+        <a class="btn btn--primary nav__cta" href="#lead">Вызвать замерщика</a>
+      </nav>
+
+      <div class="header__actions">
+        <a class="header__phone" href="tel:+78000000000">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></svg>
+          <span>8 800 000-00-00</span>
+        </a>
+        <button class="burger" type="button" aria-controls="nav" aria-expanded="false" aria-label="Открыть меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow reveal">Москва и ближнее Подмосковье</p>
+          <h1 class="hero__title reveal">Ремонт квартиры под ключ <span class="accent">без сюрпризов в смете</span></h1>
+          <p class="hero__lead reveal">Фиксируем цену в договоре, работаем по графику и каждый день присылаем фотоотчёт. Вы заезжаете в готовую квартиру — мы берём на себя всё остальное.</p>
+          <div class="hero__actions reveal">
+            <a class="btn btn--primary btn--lg" href="#calc">Рассчитать стоимость</a>
+            <a class="btn btn--ghost btn--lg" href="#lead">Бесплатный замер</a>
+          </div>
+          <ul class="hero__facts reveal" aria-label="Наши гарантии">
+            <li><strong>3 года</strong><span>гарантии на все работы</span></li>
+            <li><strong>0 ₽</strong><span>за выезд замерщика</span></li>
+            <li><strong>±0%</strong><span>смета не растёт после подписания</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__frame">
+            <img src="assets/living-after.svg" alt="Иллюстрация: светлая гостиная после ремонта с терракотовым диваном и окном" width="400" height="300">
+          </div>
+          <div class="badge badge--top">
+            <span class="badge__icon" aria-hidden="true">✓</span>
+            <span><strong>Смета зафиксирована</strong><small>в договоре до начала работ</small></span>
+          </div>
+          <div class="badge badge--bottom">
+            <span class="badge__icon badge__icon--sage" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 7h3l2-3h6l2 3h3v13H4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+            </span>
+            <span><strong>Фотоотчёт в 19:00</strong><small>каждый рабочий день</small></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Что входит</p>
+          <h2 class="section__title" id="services-title">Весь цикл работ — одна команда</h2>
+          <p class="section__lead">Не нужно искать электрика, плиточника и сантехника по отдельности. Прораб координирует бригаду и отвечает за результат целиком.</p>
+        </header>
+
+        <ul class="services">
+          <li class="service reveal">
+            <span class="service__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6" /></svg></span>
+            <h3>Демонтаж и вывоз мусора</h3>
+            <p>Аккуратно снимаем старую отделку, защищаем двери и лифт, вывозим мусор в тот же день.</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z" /></svg></span>
+            <h3>Электрика</h3>
+            <p>Новая проводка, щиток с автоматами и УЗО, розетки и свет там, где удобно именно вам.</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z" /></svg></span>
+            <h3>Сантехника</h3>
+            <p>Разводка труб, коллектор, инсталляции, защита от протечек и подключение техники.</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v6H4zM12 10v4M9 14h6v7H9z" /></svg></span>
+            <h3>Стены и потолки</h3>
+            <p>Выравнивание по маякам, шпаклёвка под покраску, натяжные и гипсокартонные потолки.</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 17h18M3 21h18M6 17V9M12 17V5M18 17v-6" /></svg></span>
+            <h3>Полы</h3>
+            <p>Стяжка, тёплый пол, укладка ламината, инженерной доски или кварцвинила.</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h8v8H3zM13 3h8v8h-8zM3 13h8v8H3zM13 13h8v8h-8z" /></svg></span>
+            <h3>Плитка и санузлы</h3>
+            <p>Укладка керамогранита любого формата, гидроизоляция, скрытые люки и ровные швы.</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 21h18M6 21V3h12v18M14 12h1" /></svg></span>
+            <h3>Двери и чистовая отделка</h3>
+            <p>Межкомнатные двери, плинтусы, покраска, обои, установка карнизов и светильников.</p>
+          </li>
+          <li class="service reveal">
+            <span class="service__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 21l2-9h10l2 9M9 12V6a3 3 0 0 1 6 0v6M3 21h18" /></svg></span>
+            <h3>Клининг после ремонта</h3>
+            <p>Профессиональная уборка перед сдачей: можно заезжать сразу, без пыли и следов краски.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Calculator -->
+    <section class="section section--tinted" id="calc" aria-labelledby="calc-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Калькулятор</p>
+          <h2 class="section__title" id="calc-title">Узнайте стоимость за минуту</h2>
+          <p class="section__lead">Предварительный расчёт работ с черновыми материалами. Точную смету фиксируем после бесплатного замера.</p>
+        </header>
+
+        <div class="calc reveal">
+          <form class="calc__form" id="calc-form" novalidate>
+            <fieldset class="calc__group">
+              <legend class="calc__label">Площадь квартиры</legend>
+              <div class="calc__area">
+                <input class="range" type="range" id="area-range" min="20" max="200" step="1" value="60" aria-label="Площадь квартиры, ползунок">
+                <div class="calc__area-input">
+                  <label class="visually-hidden" for="area-input">Площадь в квадратных метрах</label>
+                  <input type="number" id="area-input" min="20" max="200" step="1" value="60" inputmode="numeric">
+                  <span aria-hidden="true">м²</span>
+                </div>
+              </div>
+              <div class="calc__scale" aria-hidden="true"><span>20 м²</span><span>200 м²</span></div>
+            </fieldset>
+
+            <fieldset class="calc__group">
+              <legend class="calc__label">Тип ремонта</legend>
+              <div class="segmented">
+                <label class="segmented__item">
+                  <input type="radio" name="type" value="cosmetic">
+                  <span><strong>Косметический</strong><small>от 6 500 ₽/м²</small></span>
+                </label>
+                <label class="segmented__item">
+                  <input type="radio" name="type" value="capital" checked>
+                  <span><strong>Капитальный</strong><small>от 12 000 ₽/м²</small></span>
+                </label>
+                <label class="segmented__item">
+                  <input type="radio" name="type" value="design">
+                  <span><strong>Дизайнерский</strong><small>от 19 000 ₽/м²</small></span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="calc__group">
+              <legend class="calc__label">Дополнительно</legend>
+              <div class="checks">
+                <label class="check"><input type="checkbox" name="extra" value="demolition"><span class="check__box" aria-hidden="true"></span><span>Демонтаж старой отделки <small>+900 ₽/м²</small></span></label>
+                <label class="check"><input type="checkbox" name="extra" value="floor"><span class="check__box" aria-hidden="true"></span><span>Тёплый пол в санузле и на кухне <small>+48 000 ₽</small></span></label>
+                <label class="check"><input type="checkbox" name="extra" value="project"><span class="check__box" aria-hidden="true"></span><span>Дизайн-проект <small>+1 500 ₽/м²</small></span></label>
+                <label class="check"><input type="checkbox" name="extra" value="materials"><span class="check__box" aria-hidden="true"></span><span>Закупка и доставка чистовых материалов <small>+7% к смете</small></span></label>
+                <label class="check"><input type="checkbox" name="extra" value="cleaning"><span class="check__box" aria-hidden="true"></span><span>Клининг после ремонта <small>+180 ₽/м²</small></span></label>
+              </div>
+            </fieldset>
+          </form>
+
+          <aside class="calc__result" aria-labelledby="calc-result-title">
+            <p class="calc__result-title" id="calc-result-title">Предварительная стоимость</p>
+            <p class="calc__total" id="calc-total" aria-live="polite">0 ₽</p>
+            <dl class="calc__breakdown">
+              <div><dt>Работы и черновые материалы</dt><dd id="calc-base">0 ₽</dd></div>
+              <div><dt>Дополнительные опции</dt><dd id="calc-extras">0 ₽</dd></div>
+              <div><dt>Ориентировочный срок</dt><dd id="calc-term">—</dd></div>
+            </dl>
+            <button class="btn btn--primary btn--block" type="button" id="calc-send">Зафиксировать расчёт</button>
+            <p class="calc__note">Расчёт ориентировочный и не является офертой. Итоговая смета — после замера.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Как мы работаем</p>
+          <h2 class="section__title" id="process-title">Пять шагов от заявки до ключей</h2>
+          <p class="section__lead">Прозрачный процесс: вы всегда знаете, что происходит на объекте и за что платите.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__step reveal">
+            <span class="timeline__num">01</span>
+            <div>
+              <h3>Замер и консультация</h3>
+              <p>Инженер приезжает в удобное время, делает обмеры и обсуждает ваши пожелания. Бесплатно.</p>
+              <span class="timeline__time">1 день</span>
+            </div>
+          </li>
+          <li class="timeline__step reveal">
+            <span class="timeline__num">02</span>
+            <div>
+              <h3>Смета и договор</h3>
+              <p>Готовим подробную смету по каждой позиции и фиксируем цену и сроки в договоре.</p>
+              <span class="timeline__time">2–3 дня</span>
+            </div>
+          </li>
+          <li class="timeline__step reveal">
+            <span class="timeline__num">03</span>
+            <div>
+              <h3>Проект и материалы</h3>
+              <p>Согласуем планировку и отделку, закупаем материалы со скидкой поставщиков и привозим на объект.</p>
+              <span class="timeline__time">1–2 недели</span>
+            </div>
+          </li>
+          <li class="timeline__step reveal">
+            <span class="timeline__num">04</span>
+            <div>
+              <h3>Ремонтные работы</h3>
+              <p>Бригада работает по графику, прораб присылает фотоотчёт, а оплата идёт поэтапно — за выполненное.</p>
+              <span class="timeline__time">от 4 недель</span>
+            </div>
+          </li>
+          <li class="timeline__step reveal">
+            <span class="timeline__num">05</span>
+            <div>
+              <h3>Сдача и гарантия</h3>
+              <p>Принимаете квартиру по чек-листу, подписываем акт. Гарантия на работы — 3 года.</p>
+              <span class="timeline__time">1 день</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Works -->
+    <section class="section section--dark" id="works" aria-labelledby="works-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow eyebrow--light">Портфолио</p>
+          <h2 class="section__title" id="works-title">До и после</h2>
+          <p class="section__lead">Потяните ползунок, чтобы сравнить. Иллюстрации показывают типичный масштаб преображения.</p>
+        </header>
+
+        <div class="works">
+          <figure class="work reveal">
+            <div class="ba" style="--pos: 50%">
+              <img class="ba__img" src="assets/kitchen-after.svg" alt="Кухня после ремонта: светлые стены, шалфейные фасады, деревянный пол" width="400" height="300" loading="lazy">
+              <div class="ba__before">
+                <img class="ba__img" src="assets/kitchen-before.svg" alt="Кухня до ремонта: облупленные стены, старые шкафы, голая лампочка" width="400" height="300" loading="lazy">
+              </div>
+              <span class="ba__tag ba__tag--before" aria-hidden="true">До</span>
+              <span class="ba__tag ba__tag--after" aria-hidden="true">После</span>
+              <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Сравнение до и после: кухня">
+              <span class="ba__handle" aria-hidden="true"></span>
+            </div>
+            <figcaption class="work__caption">
+              <h3>Кухня-гостиная, 14 м²</h3>
+              <p><span>Капитальный</span><span>6 недель</span></p>
+            </figcaption>
+          </figure>
+
+          <figure class="work reveal">
+            <div class="ba" style="--pos: 50%">
+              <img class="ba__img" src="assets/living-after.svg" alt="Гостиная после ремонта: диван, ковёр, торшер и картины" width="400" height="300" loading="lazy">
+              <div class="ba__before">
+                <img class="ba__img" src="assets/living-before.svg" alt="Гостиная до ремонта: бетонные стены, провода, стремянка и мешки" width="400" height="300" loading="lazy">
+              </div>
+              <span class="ba__tag ba__tag--before" aria-hidden="true">До</span>
+              <span class="ba__tag ba__tag--after" aria-hidden="true">После</span>
+              <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Сравнение до и после: гостиная">
+              <span class="ba__handle" aria-hidden="true"></span>
+            </div>
+            <figcaption class="work__caption">
+              <h3>Гостиная в новостройке, 22 м²</h3>
+              <p><span>Дизайнерский</span><span>9 недель</span></p>
+            </figcaption>
+          </figure>
+
+          <figure class="work reveal">
+            <div class="ba" style="--pos: 50%">
+              <img class="ba__img" src="assets/bath-after.svg" alt="Санузел после ремонта: крупная плитка, ванна с деревянным экраном, круглое зеркало" width="400" height="300" loading="lazy">
+              <div class="ba__before">
+                <img class="ba__img" src="assets/bath-before.svg" alt="Санузел до ремонта: старая плитка с отбитыми участками, ржавые трубы" width="400" height="300" loading="lazy">
+              </div>
+              <span class="ba__tag ba__tag--before" aria-hidden="true">До</span>
+              <span class="ba__tag ba__tag--after" aria-hidden="true">После</span>
+              <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Сравнение до и после: санузел">
+              <span class="ba__handle" aria-hidden="true"></span>
+            </div>
+            <figcaption class="work__caption">
+              <h3>Санузел в «сталинке», 5 м²</h3>
+              <p><span>Капитальный</span><span>3 недели</span></p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="prices" aria-labelledby="prices-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Пакеты</p>
+          <h2 class="section__title" id="prices-title">Понятные цены за квадратный метр</h2>
+          <p class="section__lead">Выберите уровень ремонта — состав работ в каждом пакете расписан заранее.</p>
+        </header>
+
+        <div class="plans">
+          <article class="plan reveal">
+            <h3 class="plan__name">Освежить</h3>
+            <p class="plan__desc">Косметический ремонт без переноса коммуникаций</p>
+            <p class="plan__price"><span>от</span> 6 500 ₽<small>/м²</small></p>
+            <ul class="plan__list">
+              <li>Покраска или поклейка обоев</li>
+              <li>Замена напольного покрытия</li>
+              <li>Замена розеток и выключателей</li>
+              <li>Установка плинтусов и дверей</li>
+              <li>Срок — от 3 недель</li>
+            </ul>
+            <a class="btn btn--ghost btn--block" href="#lead" data-plan="Освежить">Выбрать пакет</a>
+          </article>
+
+          <article class="plan plan--featured reveal">
+            <span class="plan__label">Чаще всего выбирают</span>
+            <h3 class="plan__name">Под ключ</h3>
+            <p class="plan__desc">Капитальный ремонт с заменой всех инженерных систем</p>
+            <p class="plan__price"><span>от</span> 12 000 ₽<small>/м²</small></p>
+            <ul class="plan__list">
+              <li>Всё из пакета «Освежить»</li>
+              <li>Новая электрика и сантехника</li>
+              <li>Выравнивание стен и стяжка пола</li>
+              <li>Плитка в санузле и на кухне</li>
+              <li>Личный прораб и фотоотчёты</li>
+            </ul>
+            <a class="btn btn--primary btn--block" href="#lead" data-plan="Под ключ">Выбрать пакет</a>
+          </article>
+
+          <article class="plan reveal">
+            <h3 class="plan__name">Дизайн+</h3>
+            <p class="plan__desc">Ремонт по индивидуальному проекту с авторским надзором</p>
+            <p class="plan__price"><span>от</span> 19 000 ₽<small>/м²</small></p>
+            <ul class="plan__list">
+              <li>Всё из пакета «Под ключ»</li>
+              <li>Дизайн-проект и 3D-визуализация</li>
+              <li>Сложные потолки и скрытый свет</li>
+              <li>Комплектация мебелью и декором</li>
+              <li>Авторский надзор дизайнера</li>
+            </ul>
+            <a class="btn btn--ghost btn--block" href="#lead" data-plan="Дизайн+">Выбрать пакет</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--tinted" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <header class="section__head reveal">
+          <p class="eyebrow">Вопросы</p>
+          <h2 class="section__title" id="faq-title">Отвечаем честно</h2>
+        </header>
+
+        <div class="faq reveal">
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button type="button" id="faq-btn-1" aria-expanded="false" aria-controls="faq-panel-1">Может ли цена вырасти в процессе ремонта?<span class="faq__icon" aria-hidden="true"></span></button>
+            </h3>
+            <div class="faq__a" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1">
+              <div><p>Нет. Стоимость работ фиксируется в договоре после замера. Меняется она только если вы сами решите добавить новые работы — и только после подписания дополнительного соглашения.</p></div>
+            </div>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button type="button" id="faq-btn-2" aria-expanded="false" aria-controls="faq-panel-2">Как проходит оплата?<span class="faq__icon" aria-hidden="true"></span></button>
+            </h3>
+            <div class="faq__a" id="faq-panel-2" role="region" aria-labelledby="faq-btn-2">
+              <div><p>Поэтапно: вы оплачиваете только тот этап, который уже выполнен и принят. Никаких 100% предоплат — так спокойнее и вам, и нам.</p></div>
+            </div>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button type="button" id="faq-btn-3" aria-expanded="false" aria-controls="faq-panel-3">Нужно ли мне присутствовать на объекте?<span class="faq__icon" aria-hidden="true"></span></button>
+            </h3>
+            <div class="faq__a" id="faq-panel-3" role="region" aria-labelledby="faq-btn-3">
+              <div><p>Не обязательно. Прораб каждый день присылает фото и короткий отчёт в мессенджер, а приезжать стоит только на приёмку ключевых этапов — обычно 3–4 раза за весь ремонт.</p></div>
+            </div>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button type="button" id="faq-btn-4" aria-expanded="false" aria-controls="faq-panel-4">Кто закупает материалы?<span class="faq__icon" aria-hidden="true"></span></button>
+            </h3>
+            <div class="faq__a" id="faq-panel-4" role="region" aria-labelledby="faq-btn-4">
+              <div><p>Черновые материалы входят в смету и закупаются нами. Чистовые вы можете выбрать сами или поручить закупку нам — мы покажем чеки и привезём всё на объект вовремя.</p></div>
+            </div>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__q">
+              <button type="button" id="faq-btn-5" aria-expanded="false" aria-controls="faq-panel-5">Что, если после сдачи что-то пойдёт не так?<span class="faq__icon" aria-hidden="true"></span></button>
+            </h3>
+            <div class="faq__a" id="faq-panel-5" role="region" aria-labelledby="faq-btn-5">
+              <div><p>На все работы действует гарантия 3 года. Если появится дефект по нашей вине, мастер приедет и устранит его бесплатно.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lead form -->
+    <section class="section" id="lead" aria-labelledby="lead-title">
+      <div class="container">
+        <div class="lead reveal">
+          <div class="lead__intro">
+            <p class="eyebrow eyebrow--light">Бесплатный замер</p>
+            <h2 class="lead__title" id="lead-title">Оставьте заявку — перезвоним за 15 минут</h2>
+            <p>Согласуем удобное время визита инженера. Замер и консультация ни к чему вас не обязывают.</p>
+            <ul class="lead__perks">
+              <li>Приедем в течение 1–2 дней</li>
+              <li>Смета через 3 дня после замера</li>
+              <li>Без навязчивых звонков</li>
+            </ul>
+          </div>
+
+          <form class="form" id="lead-form" novalidate>
+            <div class="field">
+              <label for="f-name">Как к вам обращаться</label>
+              <input type="text" id="f-name" name="name" autocomplete="name" placeholder="Анна" required aria-describedby="f-name-err">
+              <p class="field__error" id="f-name-err" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-phone">Телефон</label>
+              <input type="tel" id="f-phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required aria-describedby="f-phone-err">
+              <p class="field__error" id="f-phone-err" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-comment">Комментарий <span class="field__opt">— необязательно</span></label>
+              <textarea id="f-comment" name="comment" rows="3" placeholder="Например: двушка 54 м² во вторичке, нужен капитальный ремонт"></textarea>
+            </div>
+            <label class="check check--light">
+              <input type="checkbox" id="f-agree" name="agree" required aria-describedby="f-agree-err">
+              <span class="check__box" aria-hidden="true"></span>
+              <span>Согласен на обработку персональных данных</span>
+            </label>
+            <p class="field__error" id="f-agree-err" aria-live="polite"></p>
+            <button class="btn btn--primary btn--block btn--lg" type="submit">Записаться на замер</button>
+            <p class="form__note">Демо-форма: данные проверяются в браузере и никуда не отправляются.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="logo logo--light" href="#top" aria-label="Квадрат — наверх">
+          <svg class="logo__mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="currentColor"/><rect x="16" y="16" width="32" height="32" rx="4" fill="none" stroke="#fff" stroke-width="6"/><rect x="28" y="28" width="8" height="8" fill="#f2d7b6"/></svg>
+          <span class="logo__text">Квадрат<small>ремонт под ключ</small></span>
+        </a>
+        <p>Ремонт квартир в Москве и ближнем Подмосковье.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <a href="#services">Услуги</a>
+        <a href="#calc">Калькулятор</a>
+        <a href="#works">Работы</a>
+        <a href="#prices">Цены</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+      <div class="footer__contacts">
+        <a href="tel:+78000000000">8 800 000-00-00</a>
+        <a href="mailto:hello@kvadrat.example">hello@kvadrat.example</a>
+        <span>Ежедневно, 9:00–21:00</span>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p><strong>Концепт-проект. Компания вымышлена.</strong> Цены, контакты и иллюстрации приведены для демонстрации.</p>
+      <p>© <span id="year">2026</span> «Квадрат»</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true">
+    <span class="toast__icon" aria-hidden="true">✓</span>
+    <div><strong class="toast__title">Заявка принята</strong><p class="toast__text"></p></div>
+    <button class="toast__close" type="button" aria-label="Закрыть уведомление">×</button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="t" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#b5bab8"/><path d="M0 23 H24 M23 0 V24" stroke="#8f9592" stroke-width="2"/></pattern>
+    <radialGradient id="bulb" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff6cf" stop-opacity=".8"/><stop offset="1" stop-color="#fff6cf" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="400" height="222" fill="url(#t)"/>
+  <rect x="48" y="48" width="24" height="24" fill="#7a7f7c"/><rect x="72" y="72" width="24" height="24" fill="#8a8f8c"/>
+  <rect x="312" y="24" width="24" height="24" fill="#7a7f7c"/><rect x="264" y="120" width="24" height="24" fill="#9aa09c"/>
+  <rect x="168" y="96" width="24" height="24" fill="#7a7f7c"/>
+  <path d="M200 0 L206 30 L198 56" fill="none" stroke="#5f6461" stroke-width="2"/>
+  <line x1="200" y1="0" x2="200" y2="20" stroke="#333" stroke-width="2"/>
+  <circle cx="300" cy="22" r="30" fill="url(#bulb)"/>
+  <line x1="300" y1="0" x2="300" y2="16" stroke="#333" stroke-width="2"/>
+  <circle cx="300" cy="22" r="6" fill="#efe6b8"/>
+  <path d="M370 0 V170 C370 182 360 186 350 186" fill="none" stroke="#8b5a3c" stroke-width="8"/>
+  <circle cx="370" cy="100" r="7" fill="#6e4630"/>
+  <rect y="222" width="400" height="78" fill="#878c89"/>
+  <path d="M0 246 H400 M0 274 H400 M50 222 V300 M110 222 V300 M170 222 V300 M230 222 V300 M290 222 V300 M350 222 V300" stroke="#737875" stroke-width="2"/>
+  <path d="M20 160 H250 V214 C250 236 234 244 214 244 H56 C36 244 20 236 20 214 Z" fill="#d3d2c9" stroke="#8f8e86" stroke-width="3"/>
+  <path d="M120 170 C124 200 118 220 126 240" stroke="#b58a5a" stroke-width="6" opacity=".55" fill="none"/>
+  <path d="M40 244 L36 262 M230 244 L234 262" stroke="#6e6d66" stroke-width="5"/>
+  <path d="M60 150 V118 C60 108 76 108 76 118" fill="none" stroke="#8e8d88" stroke-width="4"/>
+  <rect x="290" y="150" width="60" height="18" rx="4" fill="#d6d5ce" stroke="#8f8e86" stroke-width="2"/>
+  <rect x="312" y="168" width="16" height="50" fill="#c4c3bb" stroke="#8f8e86" stroke-width="2"/>
+  <rect x="292" y="70" width="56" height="64" fill="#9fa6a6" stroke="#6e6d66" stroke-width="3"/>
+  <path d="M298 80 L330 120" stroke="#c9cfcf" stroke-width="2"/>
+  <rect width="400" height="300" fill="#5b5f5c" opacity=".1"/>
+</svg>
